@@ -115,6 +115,15 @@ body {
   transform: translateY(0);
 }
 
+.content.show img {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 40px;
+}
+
+.content.show img.sp {
+  width: 40%;
+}
+
 .content h2 {
   font-size: 200%;
   margin: 0px auto 80px;
